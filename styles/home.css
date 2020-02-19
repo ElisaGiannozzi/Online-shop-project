@@ -1,13 +1,13 @@
-title {
+.site-title {
     font-family: arial; 
 }
+
 header {
     display: grid;
     grid-template-columns: 300px auto 300px;
     align-items: center;
     padding-right: 30px;
     padding-left: 30px;
-    background-color: green;
 }
 
 .navigation-container {
@@ -26,9 +26,27 @@ header {
   }
   
   a:hover {
-    color: red;
+    text-decoration:underline;
   }
 
   a:active {
-    color: yellow;
+    color: green;
   }
+
+footer {
+    
+}
+
+.footer-container {
+    text-align:left; 
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    padding-right:30px; 
+    padding-left:30px; 
+    font-size: 13px;  
+}
+
