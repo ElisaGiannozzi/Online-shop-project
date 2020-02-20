@@ -1,0 +1,66 @@
+/*.title-container {
+
+}
+.site-title {
+  margin: 0;
+}
+*/
+
+.wrapper {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.campaign-container {
+  position: relative;
+}
+
+.campaign-image-container {
+  max-height: 500px;
+  overflow: hidden; 
+}
+.campagin-text-container {
+  position: absolute;
+  font-style: bold;
+  top: 300px;
+  left: 25%;
+}
+.product-list-container {
+  padding: 20px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.product-img-size{
+  object-fit: cover;
+  width: 100%
+}
+
+.product-review i {
+  color: sandybrown;
+}
+
+.product-name {
+  color: black;
+}
+
+.product-price {
+  color: white;
+}
+
+.btn {
+  box-shadow: none;
+  border: none;
+  background-color: grey;
+  padding: 10px;
+  color: white;
+}
+
+.btn-black {
+  background-color: black;
+  color: white
+}
