@@ -4,7 +4,7 @@
 
 header {
   display: grid;
-  grid-template-columns: 300px auto 300px;
+  grid-template-columns: 400px auto 400px;
   align-items: center;
   padding-right: 30px;
   padding-left: 30px;
@@ -34,8 +34,13 @@ header {
   color: green;
   }
 
-footer {
-    
+.search-field {
+  border:none; 
+  border-radius:15px; 
+  width:150px; 
+  height:30px;
+  padding:5px; 
+  font-family: 'Montserrat', sans-serif;  
 }
 
 .home-img {
@@ -65,38 +70,75 @@ footer {
   border-radius: 5px;
 }
 
-.footer-container {
-  padding-left: 0px; 
-  padding-bottom: 0px;  
+footer {
+  display: grid;
+  grid-template-columns: 300px auto 300px;
+  align-items: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top:0 px; 
+  padding-bottom:0px; 
+  background-color:#57A773; 
+}
+
+.footer-container { 
   width:100%; 
   background-color: #57A773; 
   color: white; 
-  text-align:left;  
+  text-align:center;  
 }
 
 .footer-container a {
   text-decoration: none;
   color: white;
   font-family: 'Montserrat', sans-serif;
-  padding-right:30px; 
-  padding-left:30px; 
-  font-size: 13px;  
+  font-size: 14px; 
+  text-transform:uppercase; 
+  line-height: 2px;   
+}
+
+.contact-info-title {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .contact-info-footer {
   font-family: 'Montserrat', sans-serif;
-  font-size:13px;
-  padding-left:26px;   
+  font-size:13px;  
 }
 
-h4 {
-  font-family:arial; 
-  margin-bottom:0px; 
-  padding-left:26px; 
+.site-map-title {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom:5 px; 
 }
 
 .navigation-footer {
   list-style-type: none; 
   display:inline-block; 
+}
+
+.newsletter-container {
+  font-family: 'Montserrat', sans-serif;
+}
+.newsletter-p {
+  font-family: 'Montserrat', sans-serif;
+  font-size:13px; 
+}
+
+.form-placeholder {
+  font-family: 'Montserrat', sans-serif;
+  width: 250px; 
+  height: 50px; 
+}
+
+.submit-button {
+  font-family: 'Montserrat', sans-serif;
+  background-color: black; 
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
 }
 
