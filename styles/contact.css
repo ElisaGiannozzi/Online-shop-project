@@ -4,8 +4,30 @@ body {
 }
 
 .google-map {
-    width: 500px;
-    height: 200px;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.map-image {
+    width: 100%;
+    height: auto;
+}
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(230, 230, 230);
+    padding: 10px 100px;
+}
+
+.contact-left {
+    padding: 50px;
+}
+
+.contact-right {
+    padding: 50px;
 }
 
 .contact-form {
@@ -15,5 +37,79 @@ body {
 }
 
 h1.contact-header {
-    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(65, 65, 65);
+    margin-top: 0;
 }
+
+.label-name {
+    color: rgb(65, 65, 65);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin-left: 3px;
+}
+
+.label-message {
+    color: rgb(65, 65, 65);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin-left: 3px;
+}
+
+.message-area {
+    resize: none;
+    margin-top: 3px;
+    border-radius: 3px;
+    border-color: #cccccc;
+}
+
+input[type=text] {
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    height: 25px;
+    margin-top: 2px;
+    margin-bottom: 25px;
+}
+
+.contact-button {
+    background-color: rgb(0, 151, 151);
+    color: #ffffff;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.contact-button:hover {
+    background-color: rgb(0, 105, 105);
+    
+
+}
+
+h2.adress-header {
+    color: rgb(0, 151, 151);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.contact-text {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    font-size: 12px;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+
+hr.adress-divider {
+    margin-bottom: 10px;
+    border: 0.02rem dotted #cccccc;
+}
+
+/* hr#adress-hr {
+    margin-bottom: 10px;
+    border: 0.02rem dotted #cccccc;
+} */
