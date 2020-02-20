@@ -1,65 +1,92 @@
 .site-title {
-    font-family: arial; 
+  font-family: 'Montserrat', sans-serif; 
 }
 
 header {
-    display: grid;
-    grid-template-columns: 300px auto 300px;
-    align-items: center;
-    padding-right: 30px;
-    padding-left: 30px;
+  display: grid;
+  grid-template-columns: 300px auto 300px;
+  align-items: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color:#57A773; 
 }
 
 .navigation-container {
-    text-align:center; 
+  text-align:center; 
 }
 
 .navigation-container a {
-    text-decoration: none;
-    color:black;
-    padding: 10px;
-    font-family: arial; 
+  text-decoration: none;
+  color:black;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
 }
 
   a:visited {
-    color: green;
+  color: green;
   }
   
   a:hover {
-    text-decoration:underline;
+  text-decoration:underline;
   }
 
   a:active {
-    color: green;
+  color: green;
   }
 
 footer {
     
 }
 
+.home-img {
+  display:block; 
+  margin-left:auto; 
+  margin-right: auto;
+  width:60%; 
+}
+
+.home-img-container {
+   position:relative;  
+}
+
+.img-button {
+  position: absolute; 
+  top:20%; 
+  left:50%; 
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 .footer-container {
-    position:fixed; 
-    padding-left: 0px; 
-    padding-bottom: 0px;  
-    width:100%; 
-    background-color: #57A773; 
-    color: white; 
-    text-align:left;  
+  padding-left: 0px; 
+  padding-bottom: 0px;  
+  width:100%; 
+  background-color: #57A773; 
+  color: white; 
+  text-align:left;  
 }
 
 .footer-container a {
-    text-decoration: none;
-    color: white;
-    font-family: arial;
-    padding-right:30px; 
-    padding-left:30px; 
-    font-size: 13px;  
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding-right:30px; 
+  padding-left:30px; 
+  font-size: 13px;  
 }
 
 .contact-info-footer {
-    font-family:arial;
-    font-size:13px;
-    padding-left:26px;   
+  font-family: 'Montserrat', sans-serif;
+  font-size:13px;
+  padding-left:26px;   
 }
 
 h4 {
