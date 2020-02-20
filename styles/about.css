@@ -1,7 +1,58 @@
-body {
+* {
     margin: 0;
-    background: white;
-}
-.header {
+    padding: 0;
+    box-sizing: border-box;
+  }
+.menu {
     text-align: center;
+    height: 100px;
+    background-color: white;
+  }
+.container {
+    overflow: hidden;
+    background-color: white;
+}
+.page {
+    width: 1000px;
+    margin: 0 auto; 
+  }
+.content {
+    float: left;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    margin-right: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.hi {
+    font-size: larger;
+    font-weight: 600;
+    font-style: italic;
+}
+.img {
+    float: right;
+    width: 500px;
+    height: 300x;
+    background-color: white;
+    margin-right: 75px;
+}
+.text {
+    float: left; 
+    width: 640px; 
+    height: 200px;
+    background-color: white;
+    padding-right: 30px;
+}
+.quote {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    padding: 70px; 
+}
+.footer {
+    clear: both;
+    height: 200px;
+    background-color: white;
 }
