@@ -16,7 +16,7 @@ header {
 
 .navigation-container a {
     text-decoration: none;
-    color: black;
+    color:black;
     padding: 10px;
     font-family: arial; 
 }
@@ -38,15 +38,38 @@ footer {
 }
 
 .footer-container {
-    text-align:left; 
+    position:fixed; 
+    padding-left: 0px; 
+    padding-bottom: 0px;  
+    width:100%; 
+    background-color: #57A773; 
+    color: white; 
+    text-align:left;  
 }
 
 .footer-container a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: arial;
     padding-right:30px; 
     padding-left:30px; 
     font-size: 13px;  
+}
+
+.contact-info-footer {
+    font-family:arial;
+    font-size:13px;
+    padding-left:26px;   
+}
+
+h4 {
+  font-family:arial; 
+  margin-bottom:0px; 
+  padding-left:26px; 
+}
+
+.navigation-footer {
+  list-style-type: none; 
+  display:inline-block; 
 }
 
