@@ -34,6 +34,9 @@ body {
     margin-left: 30px;
     background-color: white;
 }
+ul {
+    list-style-type: none;
+}
 .hi {
     font-size: larger;
     font-weight: 600;
@@ -47,13 +50,20 @@ body {
     background-color: white;
     padding: 20px 40px 20px 20px;
     text-align: justify;
+    line-height: 1,7;
 }
 .img {
     float: left;
-    width: 100px;
+    width: 400px;
     padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 25px;
     margin-bottom: 20px;
+}
+.text { 
+    padding-top: 30px;
+    text-align: justify;
+    width: 400px;
+    line-height: 1,7;
 }
 .footer {
     clear: both;
