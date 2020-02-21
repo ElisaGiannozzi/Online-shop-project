@@ -7,11 +7,9 @@ body {
     font-family: 'Montserrat', sans-serif; 
     font-size: 14px;
 }
-
 .site-title {
     font-family: 'Montserrat', sans-serif; 
-  }
-  
+}
 header {
     display: grid;
     grid-template-columns: 400px auto 400px;
@@ -50,6 +48,7 @@ a:active {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-right: 125px;
 }
 .container {
     overflow: hidden;
@@ -81,9 +80,9 @@ ul {
 }
 .content {
     float: left;
-    width: 400px;
+    width: 420px;
     background-color: white;
-    padding: 20px 40px 20px 20px;
+    padding: 20px;
     text-align: justify;
     line-height: 1.7;
 }
@@ -122,9 +121,9 @@ footer {
     display: grid;
     grid-template-columns: 300px auto 300px;
     align-items: center;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top:0 px; 
+    padding-right:30px;
+    padding-left:30px;
+    padding-top:0px; 
     padding-bottom:0px; 
     background-color:#4DA167; 
     padding-bottom:20px; 
@@ -132,7 +131,7 @@ footer {
 .footer-container {
     width:100%;   
     color: white; 
-    text-align:center;
+    text-align: center;
 }
 .footer-container a {
     text-decoration: none;
