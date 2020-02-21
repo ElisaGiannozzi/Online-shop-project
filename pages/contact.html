@@ -9,8 +9,21 @@
     <link rel="stylesheet" href="../styles/contact.css">
 </head>
 <body>
-    <header>
-        <nav></nav>
+    <header class="site-header">
+        <div class="title-container">
+            <h1 class="site-title">PLANTS SHOP</h1>
+        </div>
+        <div class="navigation-container">
+            <nav>
+                <a href="home.html">HOME</a>
+                <a href="shop.html">SHOP</a>
+                <a href="about-us.html">ABOUT US</a>
+                <a href="contact-us.html">CONTACT US</a>
+            </nav>
+        </div>
+        <div class="search-bar-container">
+            <input class="search-field" type="text" placeholder="Product search...">
+        </div>
     </header>
     <section class="google-map">
         <img class="map-image" src="../img/map_1.png" alt="contact map">
@@ -43,16 +56,43 @@
         <p class="contact-text">Smålandsgatan 34<br>
         214 30 Malmö
         </p>
-        <hr class="adress-divider">
+        <h2 class="adress-header">PHONE</h2>
+        <p class="contact-text">123-456 789</p>
         <h2 class="adress-header">E-MAIL</h2>
-        <p class="contact-text">info@plantshop.com</p>
-        <hr> <!-- this is not showing up in the browser as long as it has a class or id-->
+        <p class="contact-text"><a class="contact-page" href=mailto:info@plantshop.com>info@plantshop.com</a></p>
         <h2 class="adress-header">OTHER CHANNELS</h2>
         <p class="contact-text">Facebook • Instagram • Twitter</p>
-        <hr> <!-- this is not showing up in the browser as long as it has a class or id -->
-
     </section> 
     </div>
-    <footer></footer>
+    <footer> <!-- something happened with the centering of divs when I copied the code. No time to fix. -->
+        <div class="contact-info">
+            <h4 class="contact-info-title">WHERE TO FIND US</h4>
+            <p class="contact-info-footer"> Smålandsgatan 34<br>214 30 Malmö
+                <br>123-456 789</p>
+            <p class="contact-info-email">info@plantshop.com</p>
+            <p class="contact-info-social">Facebook • Instagram • Twitter </p>
+        </div>
+        <div class="navigation-footer">
+            <h4 class="site-map-title">SITE MAP</h4>
+            <nav>
+                <li><a class="footer-link" href="home.html">Home</a></li>
+                <li><a class="footer-link" href="shop.html">Shop</a></li>
+                <li><a class="footer-link" href="about-us.html">About us</a></li>
+                <li><a class="footer-link" href="contact-us.html">Contact us</a></li>
+            </nav>
+        </div>
+        <div class="newsletter-container">
+            <h4 class="subscribe-to-newsletter-title"> SUBSCRIBE TO OUR NEWSLETTER!</h4>
+            <p class="newsletter-p">Don't miss out on our new arrivals and inspiration
+                by our experts' advice on home decor</p>
+            <form>
+                <input class="form-placeholder" type="text" id="email-address" name="email-address"
+                    placeholder="Your email address"><br>
+                <div class="submit-button-container">
+                    <input class="submit-button" type="submit">
+                </div>
+            </form>
+        </div>
+    </footer>
 </body>
 </html>
