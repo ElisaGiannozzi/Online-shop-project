@@ -1,14 +1,160 @@
-/*.title-container {
-
+body {
+  margin:0; 
 }
 .site-title {
-  margin: 0;
+  font-family: 'Montserrat', sans-serif; 
 }
-*/
+
+header {
+  display: grid;
+  grid-template-columns: 400px auto 400px;
+  align-items: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color:#4DA167; 
+}
+
+.navigation-container {
+  text-align:center; 
+}
+
+.navigation-container a {
+  text-decoration: none;
+  color:black;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+  a:visited {
+  color: #32533D;
+  }
+  
+  a:hover {
+  text-decoration:underline;
+  }
+
+  a:active {
+  color:#32533D;
+  }
+
+.search-field {
+  border:none; 
+  border-radius:15px; 
+  width:150px; 
+  height:30px;
+  padding:5px; 
+  font-family: 'Montserrat', sans-serif;  
+}
+
+/* === FOOTER CSS ===*/
+
+footer {
+  display: grid;
+  grid-template-columns: 300px auto 300px;
+  align-items: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top:0 px; 
+  padding-bottom:0px; 
+  background-color:#4DA167; 
+  padding-bottom:20px; 
+}
+
+.footer-container {
+
+  width:100%;   
+  color: white; 
+  text-align:center;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px; 
+  text-transform:uppercase;    
+}
+
+.contact-info-title {
+  color:black; 
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact-info-footer {
+  color:white; 
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;  
+}
+
+.contact-info-email {
+  color:white; 
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;  
+}
+
+.contact-info-social {
+  color:white; 
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px; 
+}
+
+.site-map-title {
+  color:black; 
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom:5 px; 
+}
+
+.navigation-footer {
+  list-style-type: none; 
+  display:inline-block; 
+  line-height: 28px;
+}
+
+.newsletter-container {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.subscribe-to-newsletter-title {
+  color:black; 
+}
+.newsletter-p {
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px; 
+}
+
+.form-placeholder {
+  font-family: 'Montserrat', sans-serif;
+  width: 250px; 
+  height: 30px; 
+}
+
+.submit-button {
+  font-family: 'Montserrat', sans-serif;
+  background-color: black; 
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.submit-button-container {
+  text-align:right; 
+  margin-right:23px;  
+}
+
+/* ==== SHOP CSS ====*/
 
 .wrapper {
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.h2-style{
+  font-family:'Montserrat', sans-serif;
+  padding-left: 20px;
 }
 
 .campaign-container {
@@ -16,18 +162,27 @@
 }
 
 .campaign-image-container {
+  background-image: url("../img/headerbanner.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  font-family: 'Montserrat', sans-serif;
+  padding: 60px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  text-shadow: 2px 2px black;
   max-height: 500px;
   overflow: hidden; 
+
 }
-.campagin-text-container {
-  position: absolute;
-  font-style: bold;
-  top: 300px;
-  left: 25%;
+.campaign-text {
+  font-size: 100px;
 }
 .product-list-container {
   padding: 20px;
 }
+
 .products {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -46,6 +201,7 @@
 
 .product-name {
   color: black;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .product-price {
@@ -64,3 +220,4 @@
   background-color: black;
   color: white
 }
+
