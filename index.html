@@ -5,15 +5,62 @@
         <meta name="viewport" content="width=device-width, initial scale=1">
         <title>Online-Shop</title>
         <link rel="stylesheet" href="styles/index.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <nav>
-            </nav>
+        <header class="site-header">
+            <div class="title-container">
+                <h1 class="site-title">PLANTS SHOP</h1>
+            </div>
+            <div class="navigation-container">
+                <nav>
+                    <a href="home.html">HOME</a>
+                    <a href="shop.html">SHOP</a>
+                    <a href="about-us.html">ABOUT US</a>
+                    <a href="contact-us.html">CONTACT US</a>
+                </nav>
+            </div>
+            <div class="search-bar-container">
+                <input class="search-field" type="text" placeholder="Product search...">
+            </div>
         </header>
         <main>
+            <div class="home-img-container">
+                <img class="home-img" src="img/assorted-plants.jpg"
+                alt="cactus-image">
+                <button class="img-button">EXPLORE</button>
+            </div>
         </main>
-        <footer> 
+    <div class="footer-container">
+        <footer>
+            <div class="contact-info">
+                <h4 class="contact-info-title">WHERE TO FIND US</h4>
+                <p class="contact-info-footer"> Smålandsgatan 34<br>214 30 Malmö
+                    <br>123-456 789</p>
+                <p class="contact-info-email">info@plantshop.com</p>
+                <p class="contact-info-social">Facebook • Instagram • Twitter </p>
+            </div>
+            <div class="navigation-footer">
+                <h4 class="site-map-title">SITE MAP</h4>
+                <nav>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about-us.html">About us</a></li>
+                <li><a href="contact-us.html">Contact us</a></li>
+                </nav>
+            </div>
+            <div class="newsletter-container">
+                <h4 class="subscribe-to-newsletter-title"> SUBSCRIBE TO OUR NEWSLETTER!</h4>
+                <p class="newsletter-p">Don't miss out on our new arrivals and inspiration 
+                by our experts' advice on home decor</p>
+                <form>
+                    <input class="form-placeholder" type="text" id="email-address" name="email-address" placeholder="Your email address"><br>
+                    <div class="submit-button-container">
+                        <input class="submit-button" type="submit">
+                    </div>
+                </form>
+            </div>
         </footer>
+    </div> 
     </body>
 </html>
